@@ -1,3 +1,6 @@
+#!/bin/bash
+# Installs selected system-specific .gitignore files globally.
+
 echo -e 'Creating new global .gitignore...'
 echo -e '  Adding VS Code...'
 echo '# === Visual Studio Code ===\n' > ~/.gitignore
